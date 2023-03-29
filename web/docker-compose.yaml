@@ -11,7 +11,6 @@ services:
     depends_on: 
     - catalogue
     - mongodb
-    - user
     - redis 
   catalogue: 
      image: cata:v1 
@@ -21,5 +20,5 @@ services:
   mongodb: 
     image: mongo:v1
     container_name: mongo
-    
+
     
