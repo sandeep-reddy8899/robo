@@ -19,5 +19,8 @@ services:
   mongodb: 
     image: mongo:v1
     container_name: mongo
+  user: 
+   image: user:v1 
+   container_name: user
 
     
