@@ -12,7 +12,7 @@ services:
     - catalogue
     - mongodb
   catalogue: 
-     image: cata:v1 
+     image: catalogue:v1 
      container_name: catalogue
      depends_on:
      - mongodb
